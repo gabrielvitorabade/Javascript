@@ -17,13 +17,20 @@
             margin-bottom: 2em;
             padding-left: 20px;
         }
+        input{
+            width: 115px;
+        }
+        #valor{
+            width: 70px;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
    <h1>Somando valores !</h1>
    <input type="number" name="n1txt" id="n1txt"> +
    <input type="number" name="n2txt" id="n2txt">
-   <input type="button" value="somar" onclick="somar()">
+   <input type="button" value="somar" id="valor" onclick="somar()">
    <div id="res"> Resultado...</div>
     <script>
         function somar() {
@@ -32,7 +39,7 @@
             n1 = Number(tn1.value)
             n2 = Number(tn2.value)
             r = n1 + n2
-            res.innerHTML = `A soma de ${n1} e ${n2}, é igual a ${r}.`
+            res.innerHTML = `A soma de ${n1} e ${n2}, é igual a <strong>${r}</strong>.`
         }
         
     </script>
