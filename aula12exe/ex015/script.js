@@ -29,7 +29,7 @@ function verificar() {
             } else if(idade <= 21) {
                 img.setAttribute('src', 'jovemf.png')
             }else if(idade <= 60){
-                img.setAttribute('src', 'adultof.png')
+                img.setAttribute('src', 'adultaf.png')
             }else{
                 img.setAttribute('src', 'idosaf.png')
             }
