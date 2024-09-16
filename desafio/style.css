@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(95, 97, 221);
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 5px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+    padding: 8px;
+}
+#ntxt{
+    width: 100px;
+}
+#flista{
+    width: 150px;
+}
+footer{
+    color: white;
+    text-align: center;
+
+}
